@@ -14,9 +14,9 @@ public class TestConnection {
 			
 			//Register Driver			
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
-			String url="jdbc:mysql://192.168.10.150:3306/dac16";
+			String url="jdbc:mysql://192.168.10.150:3306/dac14";
 			// get Connection
-			conn=DriverManager.getConnection(url,"dac16","welcome");
+			conn=DriverManager.getConnection(url,"dac14","welcome");
 			// checking connection
 			if(conn!=null) {
 				System.out.println("Connection Done");
